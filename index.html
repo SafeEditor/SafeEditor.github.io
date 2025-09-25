@@ -346,6 +346,30 @@
 </section>
 <!-- End paper pipeline -->
 
+<!-- Paper inference example -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3"> Inference Procedure</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Trained on MR-SafeEdit, SafeEditor performs end-to-end inference, accepting a prompt-image pair from a text-to-image model, 
+            where the image is the output generated based on the provided prompt, and producing textual reasoning along with the edited image,
+            as shown in Figure below. This capability enables it to function as a plug-and-play module at the output stage of a text-to-image model,
+            offering both high flexibility and efficiency. The editing process ends when SafeEditor outputs text only. 
+            SafeEditor comprises of both textual reasoning ability and image editing ability, which adds to its potential in more complex scenarios. 
+          </p>
+          <!-- Experiment result image -->
+          <img src="static/images/inference procedure.png" alt="Experiment Results Table"
+            style="max-width:800px; width:100%; height:auto; display:block; margin:32px auto 0 auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper editing example -->
 
 <!-- Paper editing example -->
 <section class="section hero is-light">
@@ -486,6 +510,7 @@ score, relative to the standard model, across four editing rounds on Stable Diff
 
   </body>
   </html>
+
 
 
 
